@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>定位展示知识点视图</title>
+    <style>
+		.left p {
+		    color: #aaaa7f;
+		    font-size: 10px;
+		}
+		    .front {
+		      display: flex;
+		      align-items: center; /* 垂直对齐 */
+		    }
+			
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+    
+        .main {
+            position: relative;
+            width: 900px;
+            height: 700px;
+            background-color: #93feff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            overflow: hidden;
+        }
+    
+    
+            .left {
+                float: left;
+                width:380px; /* 占据左侧 65% 宽度 */
+                padding:30px;
+            				
+            }
+      .right {
+          float: left;
+          width: 25%; /* 占据右侧 30% 宽度 */
+          padding:15px;
+          
+      }
+            
+      .right img {
+          display: block; /* 图片作为块级元素 */
+          right: 55%; /* 靠右对齐 */
+          margin-right: 0;
+      }
+            
+      .right a {
+         padding:10px;
+      			   color: #333;
+					 white-space: nowrap;
+      }
+         
+          </style>
+    </style>
+</head>
+<body>
+    <div class="main">
+       <div class="front">        
+             <img src="pg.jpg" width="60px" height="30px">
+              <h4 class="na">太空探测</h4>		
+       </div>
+		  <hr align="center" color="black" width:100%>
+		<div class="left">
+			<h5 class="l1">飞行了200多亿的旅行者1号，为何不会撞上太空中的小行星</h5>
+			<img src="21.jpeg" width="170px" height="90px">
+			<img src="22.jpg" width="170px" height="90px">
+			<p>奥巧咨询  刚刚 +关注</p>
+			<h5 class="l1">欧洲探测器从4亿公里外传回多张照片</h5>
+			<img src="31.jpeg" width="170px" height="90px">
+			<img src="32.png" width="170px" height="90px">
+			<p>百日娱记  2分钟前 +关注</p>
+			<h5 class="l1">为什么太空没有氧气陨石依然能燃烧</h5>
+			<img src="41.jpg" width="170px" height="90px">
+			<img src="42.jpg" width="170px" height="90px">
+			<p>涵涵社会  5分钟前 +关注</p>
+		</div> 
+		 <div class="right">
+			 <p >热文推荐</p>
+		  <a href="https://www.baidu.com" target="_blank">研究表明：人类的自然寿命为120岁</a>
+		 <img src="jqr.jpg" width="220px" height="110px">
+		  <a href="https://www.baidu.com" target="_blank">白墙脏了不用重新刷，一个窍门，简单一擦，立马干净如新</a>
+		 <img src="bsq.jpg"width="220px" height="110px">
+		  <a href="https://www.baidu.com" target="_blank">俗语“八月十二用一宝，四级无烦恼”，一宝竟然是盐水</a>
+		 <img src="yh.jpg" width="220px" height="110px">
+		 </div> 
+    </div>
+</body>
+</html>
+
